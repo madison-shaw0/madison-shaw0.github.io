@@ -1,0 +1,92 @@
+[
+    {
+        "id": "crystal-segmentation",
+        "title": "Deep Learning Assisted Identification of Crystal Populations in SEM Imagery of Submarine Volcaninc Rocks",
+        "year": 2025,
+        "summary": "Utilized CoralNet-Toolbox to train and deploy a YOLO segmentation model to segment feldspar, pyroxene, and olivine crystals in SEM imagery of volcanic rocks samples from the 2024 E/V Nautilus expedition NA165.",
+        "tags": ["Artificial Intelligence", "Oceanograhy", "Computer Science"],
+        "cover-image": "",
+        "link": "crystal-segmentation.html"
+    },
+    {
+        "id": "biology-detection",
+        "title": "Marine Organism Detection in ROV Footage using VIAME",
+        "year": 2025,
+        "summary": "Trained and deployed a VIAME detection model to identify, classify, and count marine organisms in ROV footage collected during an E/V Nautilus expedition.",
+        "tags": ["Artificial Intelligence", "Oceanograhy"],
+        "cover-image": "",
+        "link": "biology-detection.html"
+    },
+    {
+        "id": "IQP",
+        "title": "Interactive Qualifying Project (IQP) - Educational Resources for Prevention of Harmful Algal Blooms",
+        "year": 2026,
+        "summary": "Port Phillip Bay, a semi-enclosed embayment just south of Melbourne, faces significant risks from Harmful Algal Blooms (HABs). This 8-week project aimed to bolster community awareness and education regarding these risks through three objectives: assessing the bay’s local importance, characterizing public understanding of HABs, and developing educational and engaging materials.",
+        "tags": ["Oceanograhy"],
+        "cover-image": "",
+        "link": "IQP.html"
+    },
+    {
+        "id": "JSON-validation",
+        "title": "PyQt GUI Development for Configuring Surgical Stapling Device Settings",
+        "year": 2024,
+        "summary": "Developed a GUI using PyQt that allows test engineers to modify settings and generate updated JSON configuration files for a surgical stapling device. The GUI includes input validation to ensure that the generated JSON files are valid and conform to the required schema.",
+        "tags": ["Computer Science", "Medtronic"],
+        "cover-image": "",
+        "link": "JSON-validation.html"
+    },
+    {
+        "id": "accelerometer-testing",
+        "title": "",
+        "year": 2023,
+        "summary": "",
+        "tags": ["Computer Science", "Medtronic"],
+        "cover-image": "",
+        "link": "accelerometer-testing.html"
+    },
+    {
+        "id": "signia-software",
+        "title": "Software Development for Signia Stapling System",
+        "year": 2026,
+        "summary": "",
+        "tags": ["Computer Science", "Medtronic", "In Progress"],
+        "cover-image": "",
+        "link": "signia-software.html"
+    },
+    {
+        "id": "mmwave-research",
+        "title": "Milimeter Wave Research for Tissue and Bone Classification",
+        "year": 2026,
+        "summary": "",
+        "tags": ["Computer Science", "Medtronic", "In Progress"],
+        "cover-image": "",
+        "link": "mmwave-research.html"
+    },
+    {
+        "id": "soft-eng",
+        "title": "Collaborative Website Development - SmileApp",
+        "year": 2025,
+        "summary": "Deployed on AWS",
+        "tags": ["Computer Science"],
+        "cover-image": "",
+        "link": "soft-eng.html"
+    },
+    {
+        "id": "clustering",
+        "title": "Kraft Mac & Cheese Customer Clustering using Web-Scraping and Machine Learning",
+        "year": 2026,
+        "summary": "",
+        "tags": ["Artificial Intelligence", "Computer Science", "In Progress", "Business"],
+        "cover-image": "",
+        "link": "clustering.html"
+    },
+    {
+        "id": "etsy",
+        "title": "Etsy Small Business - 3D-printed Earrings Designed using Onshape CAD",
+        "year": 2020,
+        "summary": "Designed and sold 3D-printed earrings created using Onshape and iterative prototyping. Marketed business through social media and interacted with customers to improve product design and service quality.",
+        "tags": ["Business"],
+        "cover-image": "",
+        "link": "etsy.html"
+    }
+]
