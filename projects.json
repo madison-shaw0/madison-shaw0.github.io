@@ -4,8 +4,8 @@
         "title": "Deep Learning Assisted Identification of Crystal Populations in SEM Imagery of Submarine Volcaninc Rocks",
         "year": 2025,
         "summary": "Utilized CoralNet-Toolbox to train and deploy a YOLO segmentation model to segment feldspar, pyroxene, and olivine crystals in SEM imagery of volcanic rocks samples from the 2024 E/V Nautilus expedition NA165.",
-        "tags": ["Artificial Intelligence", "Oceanograhy", "Computer Science"],
-        "cover-image": "",
+        "tags": ["Artificial Intelligence", "Oceanography", "Computer Science"],
+        "cover-image": "images/CoralNet-Toolbox.png",
         "link": "crystal-segmentation.html"
     },
     {
@@ -13,17 +13,17 @@
         "title": "Marine Organism Detection in ROV Footage using VIAME",
         "year": 2025,
         "summary": "Trained and deployed a VIAME detection model to identify, classify, and count marine organisms in ROV footage collected during an E/V Nautilus expedition.",
-        "tags": ["Artificial Intelligence", "Oceanograhy"],
-        "cover-image": "",
+        "tags": ["Artificial Intelligence", "Oceanography"],
+        "cover-image": "images/VIAME_copy.gif",
         "link": "biology-detection.html"
     },
     {
         "id": "IQP",
         "title": "Interactive Qualifying Project (IQP) - Educational Resources for Prevention of Harmful Algal Blooms",
         "year": 2026,
-        "summary": "Port Phillip Bay, a semi-enclosed embayment just south of Melbourne, faces significant risks from Harmful Algal Blooms (HABs). This 8-week project aimed to bolster community awareness and education regarding these risks through three objectives: assessing the bay’s local importance, characterizing public understanding of HABs, and developing educational and engaging materials.",
-        "tags": ["Oceanograhy"],
-        "cover-image": "",
+        "summary": "This 8-week project aimed to bolster community awareness and education regarding HABs in Port Phillip Bay through three objectives: assessing the bay’s local importance, characterizing public understanding of HABs, and developing educational and engaging materials.",
+        "tags": ["Oceanography"],
+        "cover-image": "images/algaebloom.png",
         "link": "IQP.html"
     },
     {
@@ -32,16 +32,16 @@
         "year": 2024,
         "summary": "Developed a GUI using PyQt that allows test engineers to modify settings and generate updated JSON configuration files for a surgical stapling device. The GUI includes input validation to ensure that the generated JSON files are valid and conform to the required schema.",
         "tags": ["Computer Science", "Medtronic"],
-        "cover-image": "",
+        "cover-image": "images/JSON.jpg",
         "link": "JSON-validation.html"
     },
     {
         "id": "accelerometer-testing",
-        "title": "",
+        "title": "Building an Accelerometer Test Device for Powered Ultra",
         "year": 2023,
-        "summary": "",
+        "summary": "Using Raspberry Pi Pico, accelerometer, etc. developed (get from linkedin)",
         "tags": ["Computer Science", "Medtronic"],
-        "cover-image": "",
+        "cover-image": "images/accelerometer.jpg",
         "link": "accelerometer-testing.html"
     },
     {
@@ -50,7 +50,7 @@
         "year": 2026,
         "summary": "",
         "tags": ["Computer Science", "Medtronic", "In Progress"],
-        "cover-image": "",
+        "cover-image": "images/Signia.png",
         "link": "signia-software.html"
     },
     {
@@ -59,16 +59,16 @@
         "year": 2026,
         "summary": "",
         "tags": ["Computer Science", "Medtronic", "In Progress"],
-        "cover-image": "",
+        "cover-image": "images/mmwave-sensor.png",
         "link": "mmwave-research.html"
     },
     {
         "id": "soft-eng",
-        "title": "Collaborative Website Development - SmileApp",
+        "title": "Collaborative Website Development - WPI LabLink",
         "year": 2025,
-        "summary": "Deployed on AWS",
+        "summary": "Created a website using Agile sprints throughout the term. Developed user stories, UML diagrams, & deployed on AWS",
         "tags": ["Computer Science"],
-        "cover-image": "",
+        "cover-image": "images/wpi_lablink.png",
         "link": "soft-eng.html"
     },
     {
@@ -76,8 +76,8 @@
         "title": "Kraft Mac & Cheese Customer Clustering using Web-Scraping and Machine Learning",
         "year": 2026,
         "summary": "",
-        "tags": ["Artificial Intelligence", "Computer Science", "In Progress", "Business"],
-        "cover-image": "",
+        "tags": ["Artificial Intelligence", "Computer Science", "Business", "In Progress"],
+        "cover-image": "images/kraft.webp",
         "link": "clustering.html"
     },
     {
@@ -86,7 +86,7 @@
         "year": 2020,
         "summary": "Designed and sold 3D-printed earrings created using Onshape and iterative prototyping. Marketed business through social media and interacted with customers to improve product design and service quality.",
         "tags": ["Business"],
-        "cover-image": "",
+        "cover-image": "images/ETSY.png",
         "link": "etsy.html"
     }
 ]

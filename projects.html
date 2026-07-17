@@ -7,26 +7,10 @@
 <body>
   <div id="header"></div>
 
-  <main>
-    <h2>Projects</h2>
-
-    <section class="card">
-      <h3>Oceanography Project Title</h3>
-      <p><strong>Domain:</strong> Oceanography</p>
-      <p><strong>Summary:</strong> Brief description of the project, methods, and outcome.</p>
-    </section>
-
-    <section class="card">
-      <h3>Medical Device Project Title</h3>
-      <p><strong>Domain:</strong> Medical Devices</p>
-      <p><strong>Summary:</strong> Brief description of your role, constraints, and results.</p>
-    </section>
-
-    <section class="card">
-      <h3>Business Research Project Title</h3>
-      <p><strong>Domain:</strong> Business Research</p>
-      <p><strong>Summary:</strong> Brief description of the business question and recommendation.</p>
-    </section>
+  <main class="projects-section">
+    <h2>Research & Projects</h2>
+    <div id="projects" class ="projects-grid"></div>
+    
   </main>
 
   <script>
@@ -36,6 +20,56 @@
       document.getElementById("header").innerHTML = data;
     });
   </script>
+
+  <script>
+    fetch("projects.json")
+      .then(r => r.json())
+      .then(projects => {
+        const container = document.getElementById("projects");
+
+        projects.forEach(p => {
+          const card = document.createElement("section");
+          card.className = "card";
+
+          card.innerHTML = `
+
+            <div class="card-image-wrapper">
+
+                <img src="${p["cover-image"] || 'placeholder.jpg'}"
+                    alt="${p.title}">
+
+                <div class="card-year">
+                    ${p.year}
+                </div>
+
+            </div>
+
+            <div class="card-content">
+
+                <h3>
+                    <a href="${p.link}">
+                        ${p.title}
+                    </a>
+                </h3>
+
+                <p>${p.summary}</p>
+
+                <div class="card-tags">
+
+                    ${p.tags.map(tag =>
+                        `<span class="${tag.toLowerCase().replace(/\s+/g,'-')}">${tag}</span>`
+                    ).join("")}
+
+                </div>
+
+            </div>
+            `;
+
+          container.appendChild(card);
+        });
+      });
+</script>
+
 
 </body>
 </html>
